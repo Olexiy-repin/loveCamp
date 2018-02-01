@@ -1,0 +1,60 @@
+#sec-01 {
+  padding-top: 1rem;
+  padding-bottom: 1.9rem;
+  background-image: url("img/sec-01/bg-sm.png");
+  background-position: top;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.sec-01__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  margin-bottom: 3.9rem;
+}
+
+.logo-container {
+  width: pxToRem(37px);
+  fill: #fff;
+}
+
+// CONTENT
+
+.sec-01__content {
+  color: #fff;
+}
+
+.sec-01__content-date {
+  display: block;
+  font-family: GothaB;
+  letter-spacing: .1rem;
+  margin-bottom: .7rem;
+}
+
+.sec-01__content-title {
+  font-family: Pfd;
+  font-size: pxToRem(80px);
+  text-transform: uppercase;
+}
+
+.sec-01__content-description {
+  font-family: GothaB;
+  padding-right: 2rem;
+  line-height: 1.4;
+  margin-bottom: 4.7rem;
+}
+
+.sec-01__content-btn {
+  display: inline-block;
+  font-family: GothaB;
+  font-size: pxToRem(14px);
+  background-color: #fb83a7;
+  color: #fff;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  padding: 1.2rem 2.6rem;
+  border-radius: pxToRem(21px);
+}

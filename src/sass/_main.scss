@@ -1,0 +1,53 @@
+$baseFontSize: 16px;
+
+@function pxToRem($val) {
+  $remSize: $val/$baseFontSize;
+  @return #{$remSize}rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  counter-reset: number;
+}
+
+.container--width {
+  max-width: pxToRem(1156px);
+  min-width: pxToRem(320px);
+}
+
+// @media (max-width: 767px) {
+//   .br {
+//     display: block;
+//   }
+// }
+//
+// @media (min-width: 768px) {
+//
+//   .br-n {
+//     display: none;
+//   }
+//
+//   .br-md {
+//     display: block;
+//   }
+// 
+//   .br-md-n {
+//     display: none;
+//   }
+//
+// }
+//
+// @media (min-width: 1200px) {
+//   .br-lg {
+//     display: block;
+//   }
+//
+//   .br-lg-n {
+//     display: none;
+//   }
+// }
