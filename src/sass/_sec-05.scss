@@ -1,0 +1,28 @@
+#sec-05 {
+  padding-top: 3.3rem;
+  padding-bottom: 2rem;
+}
+
+.sec-05__title {
+  font-family: Pfd;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.sec-05__paragraph {
+  font-family: GothaR;
+  line-height: 1.5;
+  &:nth-child(2) {
+    margin-bottom: 1rem;
+  }
+}
+
+.sec-05__paragraph-span {
+  font-family: GothaB;
+}
+
+#sec-05 .row [class*=col-]:first-of-type {
+  margin-bottom: 2.2rem;
+}

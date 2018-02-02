@@ -57,4 +57,13 @@
   margin: 0 auto;
   padding: 1.2rem 2.6rem;
   border-radius: pxToRem(21px);
+  cursor: pointer;
+  &:hover {
+    transition: all .3s linear;
+    background-color: #41a7e7;
+  }
+  &:active {
+    transition: all .3s linear;
+    background-color: #258ed0;
+  }
 }

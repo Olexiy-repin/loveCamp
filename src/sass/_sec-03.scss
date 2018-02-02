@@ -1,0 +1,57 @@
+#sec-03 {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+.sec-03__title {
+  font-family: Pfd;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  position: absolute;
+  top: -20.4rem;
+  line-height: 1.3;
+}
+
+.sec-03__list {
+  list-style: none;
+}
+
+.sec-03__item {
+  font-family: GothaR;
+}
+
+#sec-03 .row {
+  position: relative;
+}
+
+#sec-03 .row [class*=col-]:first-of-type {
+  margin-top: 8rem;
+}
+
+.sec-03__list {
+  margin-top: 2rem;
+  list-style: none;
+  padding-left: 1.4rem;
+}
+
+.sec-03__item {
+  position: relative;
+  line-height: 1.5;
+  margin-bottom: .9rem;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  &::before {
+    position: absolute;
+    top: -.1rem;
+    left: -1.4rem;
+    display: block;
+    content: url("img/sec-03/list-marker.png");
+  }
+}
+
+@media (max-width: 767px) {
+  .sec-03__title-span {
+    display: block;
+  }
+}

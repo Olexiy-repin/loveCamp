@@ -1,0 +1,26 @@
+#sec-02 {
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+}
+
+.sec-02__title {
+  font-family: Pfd;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  margin-bottom: 1.2rem;
+}
+
+.sec-02__first-paragraph {
+  font-family: GothaR;
+  line-height: 1.5;
+  margin-bottom: .9rem;
+}
+
+.sec-02__second-paragraph {
+  font-family: GothaB;
+  line-height: 1.5;
+}
+
+#sec-02 .row [class*=col-]:first-of-type {
+  margin-bottom: 2.6rem;
+}

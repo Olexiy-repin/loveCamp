@@ -5,7 +5,7 @@
 }
 
 .close-logo {
-  width: 15px;
+  width: 18px;
   height: 25px;
   fill: #fff;
 }
@@ -24,8 +24,8 @@
 .cross{
   background:none;
   position:absolute;
-  top: 1.9%;
-  right: 6.5%;
+  top: 2.4%;
+  right: 5%;
   border:0;
   font-weight:bold;
   cursor:pointer;
@@ -37,20 +37,53 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   width: 100%;
   top: 0;
   left: 0;
   background-color: #41a7e7;
   z-index: 1;
-  padding: 2.3rem 0;
+  height: 28.2rem;
 }
 
-.menu_paragraph {
-  font-family: TinkovEB;
-  font-size: pxToRem(16px);
+.menu__list {
+  list-style: none;
+}
+
+.menu__item {
+  text-align: center;
+  line-height: 2.2;
+}
+
+.menu__link {
+  font-family: GothaB;
+  text-decoration: none;
   color: #fff;
-  position: relative;
-  margin-bottom: 1rem;
+}
+
+.menu__contact-container {
+  font-family: GothaB;
+  color: #fff;
+}
+
+.menu__contact-container {
+  margin-bottom: 1.6rem;
+  margin-top: 5.1rem;
+}
+
+.menu__mail {
+  letter-spacing: .2px;
+  margin-top: .8rem;
+}
+
+.menu__tel {
+  letter-spacing: .8px;
+}
+
+.menu .logo-container {
+  position: absolute;
+  top: 4%;
+  left: 5.4%;
+  width: pxToRem(44px);
 }

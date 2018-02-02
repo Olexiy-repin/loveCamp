@@ -1,0 +1,47 @@
+#sec-06 {
+  padding-top: 3.1rem;
+  padding-bottom: 5.6rem;
+}
+
+.sec-06__title {
+  font-family: Pfd;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.sec-06__list {
+  list-style: none;
+  padding-left: 1.5rem;
+}
+
+.sec-06__item {
+  position: relative;
+  font-family: GothaR;
+  line-height: 1.4;
+  margin-bottom: 1.2rem;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  &::before {
+    position: absolute;
+    top: -.1rem;
+    left: -1.8rem;
+    display: block;
+    counter-increment: number;
+    content: "0" counter(number);
+    font-family: GothaB;
+    font-size: pxToRem(12px);
+    color: #41a7e7;
+    transform: rotate(90deg);
+  }
+}
+
+.bold-item {
+  font-family: GothaB;
+}
+
+.title-col {
+  margin-bottom: .7rem;
+}

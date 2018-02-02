@@ -1,0 +1,50 @@
+#sec-04 {
+  padding-top: 3.1rem;
+  padding-bottom: 10rem;
+}
+
+.sec-04__title {
+  font-family: Pfd;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  line-height: 1.4;
+  margin-bottom: 1.7rem;
+}
+
+#sec-04 .sec-03__list {
+  margin: 0;
+}
+
+
+.sec-01__content-btn {
+  display: inline-block;
+  font-family: GothaB;
+  font-size: pxToRem(14px);
+  background-color: #fb83a7;
+  color: #fff;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  padding: 1.2rem 2.6rem;
+  border-radius: pxToRem(21px);
+  cursor: pointer;
+  &:hover {
+    transition: all .3s linear;
+    background-color: #41a7e7;
+  }
+  &:active {
+    transition: all .3s linear;
+    background-color: #258ed0;
+  }
+}
+
+#sec-04 .sec-01__content-btn {
+  position: absolute;
+  bottom: -25.3rem;
+  padding: 1.1rem 1.8rem;
+}
+
+#sec-04 .row [class*=col-]:first-of-type {
+  margin-bottom: 2rem;
+}
