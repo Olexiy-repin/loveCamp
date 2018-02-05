@@ -3,7 +3,7 @@
   padding-bottom: 1.9rem;
   background-image: url("img/sec-01/bg-sm.png");
   background-position: top;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -65,5 +65,82 @@
   &:active {
     transition: all .3s linear;
     background-color: #258ed0;
+  }
+}
+
+@media (max-width: 767px) {
+  .sec-01__desctop-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #sec-01 {
+    padding-top: 1.9rem;
+    padding-bottom: 1.3rem;
+    background-image: url("img/sec-01/bg-md.png");
+  }
+
+  .sec-01__header {
+    padding: 0 1rem 0 1.5rem;
+    margin-bottom: 9.3rem;
+  }
+
+  .logo-container {
+    width: pxToRem(66px);
+  }
+
+  .menu-container {
+    display: none;
+  }
+
+  .sec-01__desctop-menu {
+    display: flex;
+    width: 33.2rem;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+  }
+
+  .sec-01__desctop-menu-link {
+    font-family: GothaB;
+    text-decoration: none;
+    color: #fff;
+    align-self: baseline;
+    padding-bottom: .1rem;
+    &:hover {
+      border-bottom: 2px solid #fff;
+    }
+  }
+
+  // CONTENT
+  .sec-01__content {
+    padding-left: 6.3rem;
+  }
+  .sec-01__content-date {
+    font-size: pxToRem(30px);
+    letter-spacing: .16rem;
+    margin-bottom: .6rem;
+  }
+
+  .sec-01__content-title {
+    font-size: pxToRem(160px);
+  }
+
+  .sec-01__content-description {
+    font-size: pxToRem(36px);
+    padding: 0 6.2rem 0 0;
+    margin-top: -1.4rem;
+    margin-bottom: 2.1rem;
+  }
+
+  .sec-01__content-btn {
+    padding: 1.7rem 3.5rem;
+    font-size: pxToRem(16px);
+    border-radius: pxToRem(33px);
+  }
+
+  .menu__contact-container {
+    text-align: right;
+    margin-top: 11.5rem;
   }
 }

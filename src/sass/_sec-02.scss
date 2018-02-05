@@ -24,3 +24,34 @@
 #sec-02 .row [class*=col-]:first-of-type {
   margin-bottom: 2.6rem;
 }
+
+@media (min-width: 767px) {
+  #sec-02 {
+    padding-top: 9.6rem;
+  }
+
+  #sec-02 .row [class*=col-]:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .sec-02__content {
+    padding-left: .5rem;
+  }
+
+  .sec-02__title {
+    font-size: pxToRem(44px);
+    margin-bottom: 1.8rem;
+  }
+
+  .sec-02__first-paragraph {
+    padding-right: 1.5rem;
+  }
+
+  .sec-02__second-paragraph {
+    padding-right: .3rem;
+  }
+
+  .sec-02__picture-container {
+    padding-top: .4rem;
+  }
+}

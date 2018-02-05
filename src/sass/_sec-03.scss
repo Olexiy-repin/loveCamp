@@ -55,3 +55,31 @@
     display: block;
   }
 }
+
+@media (min-width: 768px) {
+  #sec-03 .row [class*=col-]:first-of-type {
+    margin-top: 0;
+  }
+
+  .sec-03__title {
+    font-size: pxToRem(44px);
+    top: 2.8rem;
+    left: -94%;
+  }
+
+  .sec-03__picture {
+    display: block;
+    margin-top: 8.4rem;
+    padding-left: .6rem;
+    width: 20.1rem;
+  }
+
+  .sec-03__img {
+    width: 100%;
+  }
+
+  .sec-03__list {
+    margin-top: 8.2rem;
+  }
+
+}

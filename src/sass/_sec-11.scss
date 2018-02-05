@@ -1,0 +1,102 @@
+#sec-11 {
+  padding-top: 3.6rem;
+  padding-bottom: 9rem;
+}
+
+.sec-11__title {
+  font-family: Pfd;
+  font-size: pxToRem(42px);
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+  letter-spacing: .6px;
+}
+
+.sec-11__content-text {
+  font-family: GothaR;
+  line-height: 1.5;
+  margin-bottom: .9rem;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+#sec-11 .row [class*=col-]:first-of-type {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+#sec-11 .sec-01__content-btn {
+  width: 18rem;
+  position: absolute;
+  bottom: -29rem;
+  padding: 1.1rem 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+// SLIDER
+.sec-11__picture {
+  display: block;
+}
+
+.sec-11__img {
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .sec-11__middle-slider.owl-carousel {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .sec-11__slider.owl-carousel {
+    display: none;
+  }
+
+  #sec-11 {
+    padding-top: 2.9rem;
+    padding-bottom: 6rem;
+  }
+
+  #sec-11 .row [class*=col-]:last-child {
+    order: -1;
+  }
+
+  .sec-11__title {
+    font-size: pxToRem(44px);
+    margin-bottom: 2.4rem;
+    position: relative;
+    &::before {
+      display: block;
+      position: absolute;
+      top: -5.7rem;
+      left: 0;
+      content: url("img/sec-11/before-cube.png");
+    }
+  }
+
+  .sec-11__content-text {
+    padding-right: 3rem;
+    margin-bottom: .5rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  #sec-11 .sec-01__content-btn {
+    bottom: .2rem;
+    padding: 1.5rem 0;
+    width: 22.4rem;
+    left: 44%;
+  }
+
+  .sec-11__content-container {
+    padding-top: 6.2rem;
+  }
+
+  .sec-11__picture:first-of-type {
+    margin-bottom: .8rem;
+  }
+
+}

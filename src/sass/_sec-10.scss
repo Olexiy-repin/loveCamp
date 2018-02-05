@@ -1,0 +1,143 @@
+#sec-10 {
+  padding-top: 3.9rem;
+  padding-bottom: 2rem;
+}
+
+.sec-10__title {
+  font-family: Pfd;
+  font-size: pxToRem(36px);
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: #000;
+  margin-bottom: .3rem;
+}
+
+#sec-10 .row [class*=col-]:first-of-type {
+  margin-bottom: 2.5rem;
+}
+
+// SLIDER
+.sec-10__list-title {
+  font-family: Pfd;
+  font-size: pxToRem(24px);
+  text-transform: uppercase;
+  border-bottom: 1px solid #41a7e7;
+  padding-bottom: 1.3rem;
+  margin-bottom: 1.4rem;
+}
+
+.sec-10__list-span {
+  color: #41a7e7;
+}
+
+.sec-10__list {
+  list-style: none;
+  padding-left: 1.5rem;
+}
+
+.sec-10__item {
+  position: relative;
+  font-family: GothaR;
+  line-height: 1.5;
+  margin-bottom: 1.6rem;
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  &::before {
+    position: absolute;
+    top: -.1rem;
+    left: -1.6rem;
+    display: block;
+    content: "01";
+    font-family: GothaB;
+    font-size: pxToRem(12px);
+    color: #41a7e7;
+    transform: rotate(90deg);
+  }
+  &:nth-child(2) {
+    &::before {
+      content: "02";
+    }
+  }
+  &:nth-child(3) {
+    &::before {
+      content: "03";
+    }
+  }
+  &:nth-child(4) {
+    &::before {
+      content: "04";
+    }
+  }
+}
+
+.bold-item {
+  font-family: GothaB;
+}
+
+@media (max-width: 767px) {
+  .sec-10__main-list {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .sec-10__slider.owl-carousel {
+    display: none;
+  }
+
+  #sec-10 {
+    padding-top: 6.3rem;
+    position: relative;
+    &::before {
+      position: absolute;
+      right: -19rem;
+      top: 36.3%;
+      display: block;
+      content: "PROGRAMM";
+      color: #f7f7f7;
+      font-family: Pfd;
+      font-size: pxToRem(244px);
+      transform: rotate(90deg);
+    }
+  }
+
+  #sec-10 .row [class*=col-]:first-of-type {
+    margin-bottom: 3.2rem;
+  }
+
+  .sec-10__title {
+    font-size: pxToRem(44px);
+    padding-left: .4rem;
+  }
+
+  .sec-10__main-list {
+    padding-left: .5rem;
+  }
+
+  .sec-10__main-list-item {
+    margin-bottom: 3.3rem;
+  }
+
+  .sec-10__main-list-item:nth-of-type(2) .sec-10__item:first-of-type {
+    margin-bottom: 1.9rem;
+  }
+
+  .sec-10__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .sec-10__list-title {
+    margin-bottom: 1.5rem;
+  }
+
+  .sec-10__item {
+    width: 29.5%;
+    margin-bottom: 0;
+    padding-right: 1.1rem;
+  }
+
+
+}

@@ -48,3 +48,47 @@
 #sec-04 .row [class*=col-]:first-of-type {
   margin-bottom: 2rem;
 }
+
+@media (min-width: 768px) {
+  #sec-04 {
+    padding-top: 5.8rem;
+  }
+
+  #sec-04 .row [class*=col-]:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .sec-04__content-container {
+    padding-left: .5rem;
+    padding-right: 2rem;
+  }
+
+  .sec-04__title {
+    font-size: pxToRem(44px);
+    line-height: 1.2;
+  }
+
+#sec-04 .sec-04__picture {
+    display: block;
+    position: absolute;
+    top: 4.1rem;
+    right: 0;
+    &::before {
+      display: block;
+      position: absolute;
+      z-index: -1;
+      content: "CAMP";
+      font-family: Pfd;
+      font-size: pxToRem(220px);
+      transform: rotate(90deg);
+      color: #f7f7f7;
+      left: -46%;
+    }
+  }
+
+  #sec-04 .sec-01__content-btn {
+    position: absolute;
+    bottom: -6.6rem;
+    padding: 1.5rem 2.9rem;
+  }
+}
