@@ -36,17 +36,17 @@
   });
 })();
 
+// POPUP
 (() => {
     $('.sec-12__list-item').on('click', (event) => {
       $('.more-block').removeClass('show');
       if ($(event.target).hasClass('more-btn')) {
+        event.stopPropagation();
         $(event.currentTarget).find('.more-block').addClass('show');
       }
     });
 
-    $('body').on('click', (event) => {
-      if (!$(event.target).hasClass('more-btn')) {
-        $(event.currentTarget).find('.more-block').removeClass('show');
-      }
-    });
+    $(window).on('click', () => {
+      $('.more-block').removeClass("show");
+    })
 })();

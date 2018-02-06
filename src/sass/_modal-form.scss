@@ -36,7 +36,7 @@
 
 #myModal .sec-01__content-btn {
   margin-left: 0;
-  padding: 1.2rem 3.5rem;
+  padding: 1.2rem 2rem;
 }
 
 @media (max-width: 767px) {
@@ -51,6 +51,11 @@
     width: 100%;
   }
 
+  #myModal .sec-01__content-btn {
+    margin-left: 0;
+    padding: 1.2rem 3.5rem;
+  }
+
   .modal-content {
     padding: 4rem 0;
   }
@@ -59,6 +64,11 @@
 @media (min-width: 1200px) {
   .modal-content {
     padding: 4rem 0;
+  }
+
+  #myModal .sec-01__content-btn {
+    margin-left: 0;
+    padding: 1.2rem 3.5rem;
   }
 
   #myModal .form-container {
