@@ -35,3 +35,18 @@
     });
   });
 })();
+
+(() => {
+    $('.sec-12__list-item').on('click', (event) => {
+      if ($(event.target).hasClass('more-btn')) {
+        $(event.currentTarget).find('.more-block').addClass('show');
+
+        $(document).mouseup(function (e) {
+          var container = $(".more-block");
+          if (container.has(e.target).length === 0){
+              container.addClass('hide');
+            }
+          });
+      }
+    });
+})();

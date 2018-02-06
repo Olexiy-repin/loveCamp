@@ -25,6 +25,10 @@
   position: relative;
 }
 
+.sec-11__btn-container {
+  text-align: center;
+}
+
 #sec-11 .sec-01__content-btn {
   width: 18rem;
   position: absolute;
@@ -32,6 +36,7 @@
   padding: 1.1rem 0;
   left: 50%;
   transform: translateX(-50%);
+  display: inline-block;
 }
 
 // SLIDER
