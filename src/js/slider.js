@@ -1,52 +1,41 @@
 (() => {
-  $(".sec-07__slider").owlCarousel({
+  $(".response-slider").owlCarousel({
     // Наиболее важные особенности owl
    items : 1,
    itemsCustom : true,
 
-   // Навигация
-
-    // Пагинация
-   pagination : true,
-
    loop: true,
 
-   // Авто-высота
     autoHeight : false,
 
-    margin : 100,
-
-    itemsDesktop : [1199,1],
-    itemsDesktopSmall : [768,1],
-    itemsTablet: [768,1],
-    itemsMobile : [320,1]
+    margin : 100
   });
 })();
 
-(() => {
-  $(".sec-08__slider").owlCarousel({
-    // Наиболее важные особенности owl
-   items : 1,
-   itemsCustom : true,
-
-   // Навигация
-
-    // Пагинация
-   pagination : true,
-
-   loop: true,
-
-   // Авто-высота
-    autoHeight : false,
-
-    margin : 100,
-
-    itemsDesktop : [1199,1],
-    itemsDesktopSmall : [768,1],
-    itemsTablet: [768,1],
-    itemsMobile : [320,1]
-  });
-})();
+// (() => {
+//   $(".sec-08__slider").owlCarousel({
+//     // Наиболее важные особенности owl
+//    items : 1,
+//    itemsCustom : true,
+//
+//    // Навигация
+//
+//     // Пагинация
+//    pagination : true,
+//
+//    loop: true,
+//
+//    // Авто-высота
+//     autoHeight : false,
+//
+//     margin : 100,
+//
+//     itemsDesktop : [1199,1],
+//     itemsDesktopSmall : [768,1],
+//     itemsTablet: [768,1],
+//     itemsMobile : [320,1]
+//   });
+// })();
 
 (() => {
   $(".sec-09__slider").owlCarousel({
@@ -111,44 +100,44 @@
   });
 })();
 
-(() => {
-  $(".sec-11__slider").owlCarousel({
-   items : 1,
-   itemsCustom : true,
+// (() => {
+//   $(".sec-11__slider").owlCarousel({
+//    items : 1,
+//    itemsCustom : true,
+//
+//    loop: true,
+//
+//    autoHeight : false,
+//
+//    margin : 100,
+//   });
+// })();
 
-   loop: true,
+// (() => {
+//   $(".sec-11__middle-slider").owlCarousel({
+//    items : 1,
+//    itemsCustom : true,
+//
+//    loop: true,
+//
+//    autoHeight : false,
+//
+//    margin : 100,
+//   });
+// })();
 
-   autoHeight : false,
-
-   margin : 100,
-  });
-})();
-
-(() => {
-  $(".sec-11__middle-slider").owlCarousel({
-   items : 1,
-   itemsCustom : true,
-
-   loop: true,
-
-   autoHeight : false,
-
-   margin : 100,
-  });
-})();
-
-(() => {
-  $(".sec-12__slider").owlCarousel({
-   items : 1,
-   itemsCustom : true,
-
-   loop: true,
-
-   autoHeight : false,
-
-   margin : 100,
-  });
-})();
+// (() => {
+//   $(".sec-12__slider").owlCarousel({
+//    items : 1,
+//    itemsCustom : true,
+//
+//    loop: true,
+//
+//    autoHeight : false,
+//
+//    margin : 100,
+//   });
+// })();
 
 (() => {
   $(".sec-13__slider").owlCarousel({
