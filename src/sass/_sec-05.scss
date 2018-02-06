@@ -52,3 +52,37 @@
     padding-top: .6rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .sec-05__picture {
+    padding-left: 1.5rem;
+  }
+
+  .sec-05__content-container {
+    padding-top: 2.7rem;
+  }
+
+  .sec-05__paragraph:nth-child(2) {
+    padding-right: 2rem;
+  }
+
+  .sec-05__paragraph:last-child {
+    padding-right: .6rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .sec-05__picture {
+    padding-left: .4rem;
+    padding-top: .7rem;
+  }
+
+  .sec-05__content-container {
+    padding-top: 5.4rem;
+    padding-left: .4rem;
+  }
+
+  .sec-05__paragraph:nth-child(2) {
+    padding-right: 3rem;
+  }
+}

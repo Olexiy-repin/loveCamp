@@ -50,3 +50,42 @@
     width: 3rem;
   }
 }
+
+@media (min-width: 1024px) {
+  #footer-1 {
+    padding-top: 1.6rem;
+    padding-bottom: 1rem;
+  }
+
+  .footer-1__container {
+    padding: 0 0 0 1.7rem;
+  }
+
+  #footer-1 .menu__contact-container {
+    width: 40.4%;
+  }
+
+  #footer-1 .menu__mail {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  #footer-1 {
+    padding-top: 2.4rem;
+  }
+
+  .footer-1__container {
+    padding: 0 0 0 .5rem;
+    position: relative;
+  }
+
+  #footer-1 .menu__contact-container {
+    width: 34.1%;
+    position: absolute;
+    right: -2.7%;
+    bottom: .8rem;
+  }
+
+
+}

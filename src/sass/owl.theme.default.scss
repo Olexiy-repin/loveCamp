@@ -44,7 +44,7 @@
 }
 
 #sec-13 .owl-dots {
-  margin-top: 2rem;
+  margin-top: -.6rem;
 }
 
 @media (min-width: 768px) {
@@ -53,6 +53,11 @@
   }
 }
 
+@media (min-width: 1024px) {
+  #sec-13 .owl-dots {
+    margin-top: 3.2rem;
+  }
+}
 // OWL DOT
 .owl-dot {
   font-family: GothaB;

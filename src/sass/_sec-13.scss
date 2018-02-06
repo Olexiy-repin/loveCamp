@@ -48,6 +48,15 @@
   margin: auto;
 }
 
+.comment-block {
+  font-family: GothaR;
+  width: pxToRem(290px);
+  background-color: #f7f7f7;
+  padding: 1rem 1.5rem 2.6rem 1.5rem;
+  font-family: GothaR;
+  line-height: 1.5;
+  min-height: 162px;
+}
 
 @media (min-width: 768px) {
   #sec-13 {
@@ -79,5 +88,94 @@
 
   #sec-13 .slides {
     margin-bottom: 2rem;
+  }
+
+  .comment-block {
+    width: pxToRem(454px);
+    margin: auto;
+    min-height: 255px;
+    padding: 2rem 3.5rem 3.3rem;
+  }
+
+  #sec-13 .comment-slide .sec-13__avatar-picture {
+    bottom: -4.4rem;
+  }
+
+  #sec-13 .comment-slide {
+    min-height: 255px;
+
+  }
+}
+
+@media (min-width: 1024px) {
+  #sec-13 {
+    padding-top: 1.8rem;
+    padding-bottom: 6.1rem;
+  }
+
+  .sec-13__picture {
+    display: block;
+    padding-left: 1rem;
+  }
+
+  .sec-13__avatar-picture {
+    left: 4.5rem;
+  }
+
+  .sec-13__picture-description {
+    width: 57%;
+  }
+
+  .sec-13__picture-title {
+    margin-right: 0;
+  }
+
+  .comment-block {
+    padding: 2rem 3.8rem 3.4rem;
+    line-height: 1.5;
+    min-height: 255px;
+  }
+
+  #sec-13 .comment-slide .sec-13__avatar-picture {
+    bottom: -4.4rem;
+    left: 3.7rem
+  }
+
+  #sec-13 .comment-slide .sec-13__picture-description {
+    width: 36%;
+  }
+}
+
+@media (min-width: 1920px) {
+  #sec-13 {
+    padding-top: 5.2rem;
+    padding-bottom: 9.6rem;
+  }
+
+  .sec-13__picture {
+    padding-left: 0;
+  }
+
+  .sec-13__avatar-picture {
+    left: 3.3rem;
+  }
+
+  .sec-13__picture-description {
+    width: 30%;
+  }
+
+  .comment-block {
+    width: pxToRem(540px);
+    margin: auto;
+    min-height: 303px;
+    padding: 2.6rem 2.4rem 3.3rem 4.6rem;
+    background-image: url("img/sec-13/quote.png");
+    background-position: top;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+
+  #sec-13 .comment-slide .sec-13__picture-description {
+    width: 25%;
   }
 }

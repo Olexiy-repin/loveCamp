@@ -67,12 +67,26 @@
     responsive:{
         0:{
             items:1,
-            nav:false
+            nav:false,
+            autoplay:true,
+            autoplayTimeout:3000,
+            // autoplayHoverPause:true
         },
         768:{
             items:2,
             nav:false,
-            margin: 10
+            margin: 10,
+            autoplay:true,
+            autoplayTimeout:3000,
+            // autoplayHoverPause:true
+        },
+        1024:{
+            items:4,
+            nav:false,
+            margin: 5,
+            autoplay:true,
+            autoplayTimeout:3000,
+            // autoplayHoverPause:true
         }
     }
   });
@@ -146,5 +160,23 @@
    autoHeight : false,
 
    margin : 100,
+
+   responsiveClass:true,
+   responsive:{
+       0:{
+           items:1,
+           nav:false
+       },
+       768:{
+           items:1,
+           nav:false,
+           margin: 10
+       },
+       1024:{
+           items:2,
+           nav:false,
+           margin: 5
+       }
+   }
   });
 })();

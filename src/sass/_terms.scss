@@ -70,3 +70,27 @@
     align-items: center;
   }
 }
+
+@media (min-width: 1024px) {
+  .terms__container-item {
+    padding-left: 1.6rem;
+  }
+
+  .terms__link:nth-child(3) {
+    margin-right: 24.9rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .terms__container-item {
+    padding-left: .4rem;
+  }
+
+  .terms__container-item {
+    margin-top: .3rem;
+  }
+
+  .terms__link:nth-child(3) {
+    margin-right: 37.4rem;
+  }
+}

@@ -55,3 +55,66 @@
     padding-top: .4rem;
   }
 }
+
+@media (min-width: 1024px) {
+  #sec-02 {
+    padding-top: 9.6rem;
+  }
+
+  .sec-02__content {
+    padding: 4rem 0 0 1.7rem;
+  }
+
+  .sec-02__first-paragraph {
+    padding-right: 0;
+    margin-bottom: .5rem;
+  }
+
+  .sec-02__second-paragraph {
+    padding-right: 7.1rem;
+  }
+
+  .sec-02__picture {
+    display: block;
+    padding-left: 1.5rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .sec-02__content {
+    padding: 6.1rem 0 0 0.5rem;
+    position: relative;
+    &::before {
+      display: block;
+      position: absolute;
+      bottom: -14.1rem;
+      left: -1.5%;
+      content: "LOVE";
+      font-family: Pfd;
+      font-size: pxToRem(300px);
+      color: #f7f7f7;
+      z-index: -1;
+    }
+  }
+
+  .sec-02__picture-container {
+    padding-top: .3rem;
+  }
+
+
+  .sec-02__picture {
+    padding-left: .4rem;
+  }
+
+  .sec-02__title {
+    margin-bottom: 1.7rem;
+  }
+
+  .sec-02__first-paragraph {
+    padding-right: 4rem;
+  }
+
+  .sec-02__second-paragraph {
+    padding-right: 13.1rem;
+  }
+}

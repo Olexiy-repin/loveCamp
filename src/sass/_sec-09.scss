@@ -57,3 +57,15 @@
     font-size: pxToRem(44px);
   }
 }
+
+@media (min-width: 1024px) {
+  .sec-09__slider {
+    // padding-left: .9rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  #sec-09 {
+    padding-top: 9.3rem;
+  }
+}
