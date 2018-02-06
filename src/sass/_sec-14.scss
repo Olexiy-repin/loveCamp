@@ -246,6 +246,14 @@
   .sec-14__list {
     flex-direction: row;
     padding-left: 1.9rem;
+    position: relative;
+    &::before {
+      display: block;
+      content: url("img/sec-14/arrow.png");
+      position: absolute;
+      bottom: 4.2rem;
+      right: 1.9rem;
+    }
   }
 
   .sec-14__item {

@@ -22,15 +22,55 @@
 }
 
 #sec-07-08 > .container-fluid .row [class*=col-]:first-of-type {
-  margin-bottom: 4.5rem;
+  margin-bottom: 1.5rem;
 }
 
 // SLIDER
 .sec-07__text-block {
   color: #fff;
-  margin-bottom: 3.2rem;
+  position: relative;
+  margin-bottom: .2rem;
+  padding-top: 3rem;
   &:last-of-type {
     margin-bottom: 0;
+  }
+  &::before {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    content: "01";
+    top: 0.8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Pfd;
+    font-size: pxToRem(60px);
+    color: #50aee9;
+  }
+  &:nth-child(2) {
+    &::before {
+      content: "02";
+    }
+  }
+  &:nth-child(3) {
+    &::before {
+      content: "03";
+    }
+  }
+}
+
+.second-slide .sec-07__text-block {
+  &::before {
+    content: '04';
+  }
+  &:nth-child(2) {
+    &::before {
+      content: "05";
+    }
+  }
+  &:nth-child(3) {
+    &::before {
+      content: "06";
+    }
   }
 }
 
@@ -93,11 +133,50 @@
   .sec-07__list-item {
     width: 48%;
     margin-bottom: 3.7rem;
+    position: relative;
+    z-index: 0;
     &:first-of-type {
       padding-right: 2rem;
     }
     &:nth-of-type(3) {
       padding-right: 2rem;
+    }
+    &::before {
+      display: block;
+      position: absolute;
+      z-index: -1;
+      content: "01";
+      top: -2.2rem;
+      left: 1.4rem;
+      transform: translateX(-50%);
+      font-family: Pfd;
+      font-size: pxToRem(60px);
+      color: #58afe9;
+    }
+    &:nth-child(2) {
+      &::before {
+        content: "02";
+      }
+    }
+    &:nth-child(3) {
+      &::before {
+        content: "03";
+      }
+    }
+    &:nth-child(4) {
+      &::before {
+        content: "04";
+      }
+    }
+    &:nth-child(5) {
+      &::before {
+        content: "05";
+      }
+    }
+    &:nth-child(6) {
+      &::before {
+        content: "06";
+      }
     }
   }
 
@@ -134,6 +213,26 @@
     }
     &:nth-child(4) {
       padding-left: 0;
+    }
+    &:nth-child(2) {
+      &::before {
+        left: 3.9rem;
+      }
+    }
+    &:nth-child(3) {
+      &::before {
+        left: 3.9rem;
+      }
+    }
+    &:nth-child(5) {
+      &::before {
+        left: 3.9rem;
+      }
+    }
+    &:nth-child(6) {
+      &::before {
+        left: 3.9rem;
+      }
     }
   }
 
