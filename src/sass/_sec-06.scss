@@ -119,10 +119,10 @@
   #sec-06 {
     padding-bottom: 9.7rem;
   }
-  
+
   .sec-06__list {
     columns: 2;
-    padding-left: 2.6rem;
+    padding-left: .7rem;
   }
 
   .sec-06__title {
@@ -137,11 +137,15 @@
 
   .sec-06__item {
     margin-bottom: 1.8rem;
+    padding-left: 1.8rem;
+    &::before {
+      left: .2rem;
+    }
     &:nth-of-type(n+4) {
-      padding-left: 3.3rem;
+      padding-left: 4.2rem;
       &::before {
         top: 0;
-        left: 1.4rem;
+        left: 2.4rem;
       }
     }
   }
