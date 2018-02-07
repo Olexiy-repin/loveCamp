@@ -66,16 +66,20 @@
 
 .sec-06__list {
   columns: 2;
-  padding-left: 2rem;
+  padding-left: 0;
 }
 
 .sec-06__item {
   margin-bottom: 1.8rem;
+  padding-left: 2rem;
+  &::before {
+    left: .2rem;
+  }
   &:nth-of-type(n+4) {
-    padding-left: .9rem;
+    padding-left: 1.9rem;
     &::before {
       top: 0;
-      left: -.8rem;
+      left: 0;
     }
   }
 }
